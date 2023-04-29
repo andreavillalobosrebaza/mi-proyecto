@@ -1,8 +1,20 @@
 /* En este archivo escriban su CSS */
 
 /* Fonts */
-/* Importar aquí la font */
 
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body{
+    background-color: #fbfbfb;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+}
+p{
+    font-family: 'Lato', sans-serif;
+}
 
 
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
@@ -37,6 +49,20 @@ main {
     margin: auto;
 }
 
+
+footer{
+    background-color: #af599e;
+    text-align:center; 
+    color:#fbfbfb;
+}
+
+#Inicio{
+ 
+}
+#Hablemos{
+    background-color: rgba(175, 89, 158, 0.3);
+
+}
 /* Recomendaciones! 
 *  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
 *    "estilos generales". Una buena idea sería comenzar por el <body> ;)
