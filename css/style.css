@@ -65,7 +65,7 @@ main{
 article{
     padding: 40px 20px;
     text-align: center;
-    margin: 10px 0; /*no estoy segura de esto*/
+    margin: 20px 0; /*no estoy segura de esto*/
     
 }
 .botoncv{
@@ -79,14 +79,36 @@ article{
         border-radius: 50px; 
         
 }
+#iconos{
+    display:flex; 
+    justify-content: space-evenly;
+    width: auto;
+    align-items: flex-end; 
+    height: auto;
 
+    
+}
+
+#icono{
+    width: 40px;
+}
 
 footer{
     background-color: #af599e;
     text-align:center; 
     color:#fbfbfb;
     height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+#pfooter{
+    display: flex;
+          justify-content: space-around;
+  
+}
+
+
 
 
 
